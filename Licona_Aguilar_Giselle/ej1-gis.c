@@ -7,7 +7,9 @@ struct Coche{
     int cilindros;
 };
 
-void cambioCilindros(struct Coche *p, int valueCilindros){
+void cambioCilindros(struct Coche *p, char *valueMarca, char *valueColor, int valueCilindros){
+    strcpy(p->marca, valueMarca);
+    strcpy(p->color, valueColor);
     p->cilindros=valueCilindros;
 };
 
@@ -31,9 +33,9 @@ int main(){
     printf("Cilindros: %d\n",ptro->cilindros);
 
 /*Modifico una varible asignada con una función pasando puntero*/
-    cambioCilindros(&dos,8);
+    cambioCilindros(&dos,"BMW", "Blanco", 8);
 
-    printf("______________Cambio cilindro con puntero___________________\n");
+    printf("______________Cambio valores con puntero___________________\n");
     printf("Marca: %s\n", ptro->marca);
     printf("Color: %s\n", ptro->color);
     printf("Cilindros: %d\n",ptro->cilindros);
