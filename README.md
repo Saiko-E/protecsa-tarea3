@@ -27,8 +27,8 @@ Donde:
 
 
 
-Ejercicio 7
-![Lista Pacientes 1](protecsa-tarea3/img-ejercicio7/Ej7-1.png)
+## Ejercicio 7
+![Lista Pacientes 1](img-ejercicio7/Ej7-1.png)
 ![Lista Pacientes 1.2](protecsa-tarea3/img-ejercicio7/ej7-2.png)
 
 ![Lista Pacientes después de eliminar 1](protecsa-tarea3/img-ejercicio7/ej7-3.png)
