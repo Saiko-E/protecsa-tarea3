@@ -23,9 +23,9 @@ Donde:
 3. Para ejecutar el programa, usa el siguiente comando:
 
 ```bash
-./nombre```
+./nombre
+```
 
----
 
 ## Ejercicio 7
 ![Lista Pacientes 1](img-ejercicio7/Ej7-1.png)
