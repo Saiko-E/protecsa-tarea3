@@ -25,6 +25,8 @@ Donde:
 ```bash
 ./nombre
 ```
+## Ejercicio 6
+![Lista Libros biblioteca](actividad6.png)
 
 
 ## Ejercicio 7
